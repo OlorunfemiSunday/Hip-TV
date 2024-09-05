@@ -1,393 +1,396 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.logo{
-    position:relative;
-    height:160px;
-    width: 185px;
-    left:64px;
+.logo {
+  position: relative;
+  height: 160px;
+  width: 185px;
+  left: 64px;
 }
 
-nav{
-    position: relative;
+nav {
+  position: relative;
+  margin-left: 20px;
 }
-li{
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    float: left;   
-}
-
-ul{
-    margin-left: 450px;
+li {
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  float: left;
 }
 
-li.space{
-    margin-top: 50px;
-    color: rgb(83, 83, 83);
-    font-weight: bold;
-    padding-right:0 ;
-    letter-spacing:.4px;
-    margin-left: 18px;
-    font-size: 16px;
+ul {
+  margin-left: 450px;
 }
 
-li:hover{
-    color:#D20915;
-    cursor: pointer;
+li.space {
+  margin-top: 50px;
+  color: rgb(83, 83, 83);
+  font-weight: bold;
+  padding-right: 0;
+  letter-spacing: 0.4px;
+  margin-left: 18px;
+  font-size: 16px;
 }
 
-li.button{
-    margin-top: -30px;
-    margin-left: 180px;
-    padding: 10px;
-    background-color: #ffffff;
-    color: #D20915;
-    font-weight: bold;
-    border: 1px solid #D20915;
-    font-size: 15px;
-    width: 66px;
-    text-align: center;
+li:hover {
+  color: #d20915;
+  cursor: pointer;
 }
 
-li.button:hover{
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+li.button {
+  margin-top: -30px;
+  margin-left: 180px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #d20915;
+  font-weight: bold;
+  border: 1px solid #d20915;
+  font-size: 15px;
+  width: 66px;
+  text-align: center;
 }
-.form{
-    position:relative;
+
+li.button:hover {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-.search{
-    position:absolute;
-    height: 44px;
-    width: 170px;
-    top:160px;
-    right: 59px;
-    border:1px solid #e5e5e5;
-    padding-left: 40px;
-    background-color: #F2F2F2;
-    font-size: 14.5px;
-    font-weight:600;
+.form {
+  position: relative;
 }
-.icon{
-    position: absolute;
-    right:240px;
-    color: rgb(170, 170, 170);
-    top: 175px;
+.search {
+  position: absolute;
+  height: 44px;
+  width: 170px;
+  top: 160px;
+  right: 59px;
+  border: 1px solid #e5e5e5;
+  padding-left: 40px;
+  background-color: #f2f2f2;
+  font-size: 14.5px;
+  font-weight: 600;
 }
-.black{
-    position: relative;
-    top:250px;
-    background-color: black;
-    height:720px;
-    width:100%;
+.icon {
+  position: absolute;
+  right: 240px;
+  color: rgb(170, 170, 170);
+  top: 175px;
 }
-h1.watch{
-    position:absolute;
-    color: white;
-    left:200px;
-    text-align: center;
-    top:220px;
-    font-weight: 1000;
-    font-size: 55px;
-    letter-spacing:-2.8px;
+.black {
+  position: relative;
+  top: 250px;
+  background-color: black;
+  height: 720px;
+  width: 100%;
 }
-.break{
-    position:absolute;
-    color: white;
-    left:550px;
-    top:380px;
-    font-size: 20px;
+h1.watch {
+  position: absolute;
+  color: white;
+  left: 200px;
+  text-align: center;
+  top: 220px;
+  font-weight: 1000;
+  font-size: 55px;
+  letter-spacing: -2.8px;
 }
-button.watch{
-    margin-top: 440px;
-    margin-left: 100px;
-    background-color:rgba(255, 255, 255, 0);
-    color: #FDB31F;
-    font-weight: bold;
-    border: 3px solid #FDB31F;
-    font-size: 15px;
-    transition: background-color 0.3s ease;
-    height: 70px;
-    padding-left:64px;
-    width: 240px;
-    cursor: pointer;
+.break {
+  position: absolute;
+  color: white;
+  left: 550px;
+  top: 380px;
+  font-size: 20px;
 }
-button.watch:hover{
-    background-color:#363431;
+button.watch {
+  margin-top: 440px;
+  margin-left: 90px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fdb31f;
+  font-weight: bold;
+  border: 3px solid #fdb31f;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+  height: 70px;
+  padding-left: 64px;
+  width: 240px;
+  cursor: pointer;
 }
-.yellow{
-    position:absolute;
-    height:66px;
-    top:510px;
-    background-color:#FDB31F;
-    width:3px;
-    left:620px;
+button.watch:hover {
+  background-color: #363431;
 }
-.icon2{
-    position: absolute;
-    left:582px;
-    color: #FDB31F;
-    top: 535px;
+.yellow {
+  position: absolute;
+  height: 66px;
+  top: 510px;
+  background-color: #fdb31f;
+  width: 3px;
+  left: 620px;
 }
-.white{
-    position: relative;
-    top:260px;
-    height:720px;
-    width:100%;
+.icon2 {
+  position: absolute;
+  left: 582px;
+  color: #fdb31f;
+  top: 535px;
 }
-.browse{
-    position: absolute;
-    top:40px;
-    left:400px;
-    font-weight: 800;
-    letter-spacing: 3px;
-    font-size: 28px;
+.white {
+  position: relative;
+  top: 260px;
+  height: 720px;
+  width: 100%;
 }
-.events{
-    position: absolute;
-    height:620px;
-    top:100px;
-    z-index: -1;
+.browse {
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 28px;
 }
-.life{
-    position: absolute;
-    height:620px;
-    left:352px;
-    top:100px;
-    z-index: -1;
+.events {
+  position: absolute;
+  height: 620px;
+  top: 100px;
+  z-index: -1;
 }
-.music{
-    position: absolute;
-    height:620px;
-    left:703px;
-    top:100px;
-    z-index: -1;
+.life {
+  position: absolute;
+  height: 620px;
+  left: 352px;
+  top: 100px;
+  z-index: -1;
 }
-.news{
-    position: absolute;
-    height:620px;
-    left:1053px;
-    top:100px;
-    z-index: -1;
+.music {
+  position: absolute;
+  height: 620px;
+  left: 703px;
+  top: 100px;
+  z-index: -1;
 }
-.eventsb, .lifeb, .musicb, .newsb{
-    margin-top: 680px;
-    background-color:rgb(0, 0, 0);
-    color: #ffffff;
-    border: none !important;
-    font-weight: 800;
-    font-size: 30px;
-    transition: background-color 0.3s ease;
-    height: 70px;
-    width: 200px;
-    cursor: pointer;
+.news {
+  position: absolute;
+  height: 620px;
+  left: 1053px;
+  top: 100px;
+  z-index: -1;
 }
-.eventsb{
-    margin-left: 70px;
+.eventsb,
+.lifeb,
+.musicb,
+.newsb {
+  margin-top: 680px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border: none !important;
+  font-weight: 800;
+  font-size: 30px;
+  transition: background-color 0.3s ease;
+  height: 70px;
+  width: 200px;
+  cursor: pointer;
 }
-.lifeb{
-    margin-left: 150px;
+.eventsb {
+  margin-left: 70px;
 }
-.musicb{
-    margin-left: 160px;
+.lifeb {
+  margin-left: 150px;
 }
-.newsb{
-    margin-left: 150px;
+.musicb {
+  margin-left: 160px;
+}
+.newsb {
+  margin-left: 150px;
 }
 .eventsb:hover,
 .lifeb:hover,
 .musicb:hover,
-.newsb:hover{
-    background-image: linear-gradient(to  right, #D30D15, #FCAD1F);
+.newsb:hover {
+  background-image: linear-gradient(to right, #d30d15, #fcad1f);
 }
-.grey{
-    position: relative;
-    top:380px;
-    height:580px;
-    z-index: -1;
-    background-color:#DBDBDB;
-    width:100%;
+.grey {
+  position: relative;
+  top: 380px;
+  height: 580px;
+  z-index: -1;
+  background-color: #dbdbdb;
+  width: 100%;
 }
-.face{
-    position:absolute;
-    left:250px;
-    top:65px;
-    font-size:30px;
-    font-weight:850;
-    color: #3B5998;
+.face {
+  position: absolute;
+  left: 250px;
+  top: 65px;
+  font-size: 30px;
+  font-weight: 850;
+  color: #3b5998;
 }
-.twit{
-    position:absolute;
-    left:560px;
-    top:65px;
-    font-size:30px;
-    font-weight:850;
-    color: #1DA1F2;
+.twit {
+  position: absolute;
+  left: 560px;
+  top: 65px;
+  font-size: 30px;
+  font-weight: 850;
+  color: #1da1f2;
 }
-.insta{
-    position:absolute;
-    left:890px;
-    top:65px;
-    font-size:30px;
-    font-weight:850;
-    color: #DE2B7D;
+.insta {
+  position: absolute;
+  left: 890px;
+  top: 65px;
+  font-size: 30px;
+  font-weight: 850;
+  color: #de2b7d;
 }
-#face{
-    position: absolute;
-    top:58px;
-    left:470px;
-    font-size:64px;
-    color: #3B5998;
+#face {
+  position: absolute;
+  top: 58px;
+  left: 470px;
+  font-size: 64px;
+  color: #3b5998;
 }
-#twit{
-    position: absolute;
-    top:58px;
-    left:755px;
-    font-size:72px;
-    color: #1DA1F2;
-} 
-
-#insta{
-    position: absolute;
-    top:47px;
-    left:1120px;
-    font-size:80px;
-    color: #DE2B7D;
-}
-.facepo{
-    position: absolute;
-    top:128px;
-    height:375px;
-    left:240px;
-    color: #3B5998;
-}
-.twitpo{
-    position: absolute;
-    top:128px;
-    height:375px;
-    left:560px;
-    color: #3B5998;
-}
-.instapo{
-    position: absolute;
-    top:128px;
-    height:375px;
-    left:890px;
-    color: #3B5998;
-}
-footer{
-    position:relative;
-    height:370px;
-    width:100%;
-    top:370px;
-    background-color:#17171A;
-}
-.phone{
-    position:absolute;
-    color:#909890;
-    cursor: pointer;
-    left:80px;
-    font-size: 15px;
-    top:100px;
-}
-.phone2{
-    position:absolute;
-    color:#909890;
-    cursor: pointer;
-    left:80px;
-    top:130px;
-    font-size: 15px;
+#twit {
+  position: absolute;
+  top: 58px;
+  left: 755px;
+  font-size: 72px;
+  color: #1da1f2;
 }
 
-.email{
-    position:absolute;
-    color:#909890;
-    cursor: pointer;
-    left:80px;
-    top:160px;
-    font-size: 15px;
+#insta {
+  position: absolute;
+  top: 47px;
+  left: 1120px;
+  font-size: 80px;
+  color: #de2b7d;
 }
-h2{
-    position:absolute;
-    left:80px;
-    top:55px;
-    font-size: 16px;
-    letter-spacing: 2px;
-    color:white;
+.facepo {
+  position: absolute;
+  top: 128px;
+  height: 375px;
+  left: 240px;
+  color: #3b5998;
 }
-h3{
-    position:absolute;
-    left:550px;
-    top:55px;
-    font-size: 16px;
-    letter-spacing: 2px;
-    color:white;
+.twitpo {
+  position: absolute;
+  top: 128px;
+  height: 375px;
+  left: 560px;
+  color: #3b5998;
 }
-.add{
-    position:absolute;
-    left:550px;
-    line-height:28px;
-    top:95px;
-    font-size: 15px;
-    color:#909890;
+.instapo {
+  position: absolute;
+  top: 128px;
+  height: 375px;
+  left: 890px;
+  color: #3b5998;
 }
-.line, 
-.line2{
-    position: absolute;
-    width:60%;
-    height:20px;
-    border-top: 1px solid #2F2F31;
-    left:80px;
-    z-index: 10;
+footer {
+  position: relative;
+  height: 370px;
+  width: 100%;
+  top: 370px;
+  background-color: #17171a;
+}
+.phone {
+  position: absolute;
+  color: #909890;
+  cursor: pointer;
+  left: 80px;
+  font-size: 15px;
+  top: 100px;
+}
+.phone2 {
+  position: absolute;
+  color: #909890;
+  cursor: pointer;
+  left: 80px;
+  top: 130px;
+  font-size: 15px;
+}
+
+.email {
+  position: absolute;
+  color: #909890;
+  cursor: pointer;
+  left: 80px;
+  top: 160px;
+  font-size: 15px;
+}
+h2 {
+  position: absolute;
+  left: 80px;
+  top: 55px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+}
+h3 {
+  position: absolute;
+  left: 550px;
+  top: 55px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+}
+.add {
+  position: absolute;
+  left: 550px;
+  line-height: 28px;
+  top: 95px;
+  font-size: 15px;
+  color: #909890;
+}
+.line,
+.line2 {
+  position: absolute;
+  width: 60%;
+  height: 20px;
+  border-top: 1px solid #2f2f31;
+  left: 80px;
+  z-index: 10;
 }
 .down-menu {
-    box-sizing: border-box;
-    display: block;
-    list-style: none;
-    margin: 0 auto;
-    left:-10px;
-    top: 220px;
-    padding: 17px 80px;
-    position: absolute;
-  }
+  box-sizing: border-box;
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  left: -10px;
+  top: 220px;
+  padding: 17px 80px;
+  position: absolute;
+}
 
 .down-menu li a {
-    padding: 0 30px 0 10px;
-    color: #909890;
-    display: block;
-    float:left;
-    font-weight: bold;
-    letter-spacing: .1px;
-    word-spacing:.100px;
-    transition: color 0.3s;
-    font-family: Poppins;
-    text-decoration: none;
-    font-size: 14px;
-    position: relative;
-  }
-  .down-menu li a:hover {
-    color:white;
+  padding: 0 30px 0 10px;
+  color: #909890;
+  display: block;
+  float: left;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  word-spacing: 0.1px;
+  transition: color 0.3s;
+  font-family: Poppins;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
 }
-.line{
-    top:210px;
+.down-menu li a:hover {
+  color: white;
 }
-.line2{
-    top:290px;
+.line {
+  top: 210px;
 }
-.copy{
-    position:absolute;
-    left:78px;
-    top:320px;
-    font-size: 14px;
-    color:#585858;
+.line2 {
+  top: 290px;
 }
-.map{
-    position: absolute;
-    height:170px;
-    right:120px;
-
+.copy {
+  position: absolute;
+  left: 78px;
+  top: 320px;
+  font-size: 14px;
+  color: #585858;
+}
+.map {
+  position: absolute;
+  height: 170px;
+  right: 120px;
 }
